@@ -27,8 +27,8 @@ $(function () {
     dots: false,
     centerMode: true,
     cssEase: 'linear',
-    prevArrow: '.gallery__list-left',
-    nextArrow: '.gallery__list-right',
+    prevArrow: '.play__list-left',
+    nextArrow: '.play__list-right',
   });
 });
 $(function () {
@@ -40,11 +40,11 @@ $(function () {
     autoplay: true,
     autoplaySpeed: 3500,
     speed: 1000,
-    dots: true,
+    dots: false,
     centerMode: true,
     cssEase: 'linear',
-    prevArrow: '.gallery__list-left',
-    nextArrow: '.gallery__list-right',
+    prevArrow: '.gallery-main__list-left',
+    nextArrow: '.gallery-main__list-right',
   });
 });
 
